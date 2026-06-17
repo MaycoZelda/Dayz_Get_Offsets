@@ -1,0 +1,45 @@
+================================
+       DAYZ OFFSETS - RESULT      
+================================
+
+World::NearEntList = 0x0 (ZERO - INVÁLIDO)
+Camera::ViewProjection = 0x0 (ZERO - INVÁLIDO)
+Camera::ViewMatrix = 0x0 (ZERO - INVÁLIDO)
+HumanType::ObjectName = 0x70
+Modbase::World = 0xf4b050
+Modbase::Network = 0x0 (ZERO - INVÁLIDO)
+Weapon::MuzzleCount = 0x0 (ZERO - INVÁLIDO)
+Modbase::Tick = 0xf193c8
+World::BulletList = 0x0 (ZERO - INVÁLIDO)
+World::LocalPlayer = 0x48562024
+World::FarEntList = 0x1090
+Weapon::WeaponInfoSize = 0x0 (ZERO - INVÁLIDO)
+World::Camera = 0x0 (ZERO - INVÁLIDO)
+Magazine::MagazineType = 0x0 (ZERO - INVÁLIDO)
+World::LocalOffset = 0xffffffff8d481674
+Human::VisualState = 0x0 (ZERO - INVÁLIDO)
+Human::HumanType = 0x0 (ZERO - INVÁLIDO)
+AnimClass::MatrixArray = 0x0 (ZERO - INVÁLIDO)
+Human::LodShape = 0x0 (ZERO - INVÁLIDO)
+InventoryItem::ItemInventory = 0x658
+HumanType::CategoryName = 0xa8
+DayZInfected::Skeleton = 0x0 (ZERO - INVÁLIDO)
+DayZPlayer::Skeleton = 0x0 (ZERO - INVÁLIDO)
+DayZPlayer::NetworkID = 0x0 (ZERO - INVÁLIDO)
+Magazine::AmmoCount = 0x0 (ZERO - INVÁLIDO)
+DayZPlayer::Inventory = 0x658
+VisualState::InverseTransform = 0x0 (ZERO - INVÁLIDO)
+DayZPlayerInventory::Hands = 0xf8
+Weapon::WeaponIndex = 0x0 (ZERO - INVÁLIDO)
+Weapon::WeaponInfoTable = 0x0 (ZERO - INVÁLIDO)
+WeaponInventory::MagazineRef = 0x0 (ZERO - INVÁLIDO)
+AmmoType::InitSpeed = 0x0 (ZERO - INVÁLIDO)
+AmmoType::AirFriction = 0x0 (ZERO - INVÁLIDO)
+Skeleton::AnimClass1 = 0x0 (ZERO - INVÁLIDO)
+Camera::ViewPortMatrix = 0x0 (ZERO - INVÁLIDO)
+Skeleton::AnimClass2 = 0x0 (ZERO - INVÁLIDO)
+VisualState::Transform = 0x0 (ZERO - INVÁLIDO)
+
+================================
+          FIM DO ARQUIVO         
+================================

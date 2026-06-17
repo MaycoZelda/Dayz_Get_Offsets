@@ -1,0 +1,302 @@
+╔════════════════════════════════════════════════════════════╗
+║          DAYZ OFFSETS - DEBUG REPORT                      ║
+║     COM SUPORTE A PONTEIROS DINÂMICOS MULTINÍVEL          ║
+╠════════════════════════════════════════════════════════════╣
+║ INFORMAÇÕES DO MÓDULO                                      ║
+║ ────────────────────────────────────────────────────────── ║
+║ Endereço Base: 0x7ff631710000                          ║
+║ Buffer Alocado: 0x7ff631710000                          ║
+╠════════════════════════════════════════════════════════════╣
+║ STATUS DOS OFFSETS (COM ANÁLISE DE DINÂMICOS)             ║
+║ ────────────────────────────────────────────────────────── ║
+
+┌─ World::NearEntList
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Camera::ViewProjection
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Camera::ViewMatrix
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ HumanType::ObjectName
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0x70
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ Modbase::World
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0xf4b050
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ Modbase::Network
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Weapon::MuzzleCount
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Modbase::Tick
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0xf193c8
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ World::BulletList
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ World::LocalPlayer
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0x48562024
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ World::FarEntList
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0x1090
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ Weapon::WeaponInfoSize
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ World::Camera
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Magazine::MagazineType
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ World::LocalOffset
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0xffffffff8d481674
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ Human::VisualState
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Human::HumanType
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ AnimClass::MatrixArray
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Human::LodShape
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ InventoryItem::ItemInventory
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0x658
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ HumanType::CategoryName
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0xa8
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ DayZInfected::Skeleton
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ DayZPlayer::Skeleton
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ DayZPlayer::NetworkID
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Magazine::AmmoCount
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ DayZPlayer::Inventory
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0x658
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ VisualState::InverseTransform
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ DayZPlayerInventory::Hands
+│  Status: ✅ VÁLIDO (ESTÁTICO)
+│  Offset: 0xf8
+│  Tipo: DIRETO - Endereço fixo
+└─
+
+┌─ Weapon::WeaponIndex
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Weapon::WeaponInfoTable
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ WeaponInventory::MagazineRef
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ AmmoType::InitSpeed
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ AmmoType::AirFriction
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Skeleton::AnimClass1
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Camera::ViewPortMatrix
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ Skeleton::AnimClass2
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+┌─ VisualState::Transform
+│  Status: ⚠️ ZERO - ANALISANDO COMO DINÂMICO...
+│  Offset: 0x0
+│  Tentando: Dereferência como ponteiro dinâmico
+│  ❌ Não é um ponteiro válido
+└─
+
+╠════════════════════════════════════════════════════════════╣
+║ RESUMO ESTATÍSTICO                                         ║
+║ ────────────────────────────────────────────────────────── ║
+║ Total de Offsets: 37                             ║
+║ Estáticos Diretos (✅): 10                             ║
+║ Dinâmicos Multinível (🔗): 0                             ║
+║ Não Encontrados (❌): 0                             ║
+║ Problemas (⚠️): 27                             ║
+║ Taxa de Sucesso: 27%                          ║
+╠════════════════════════════════════════════════════════════╣
+║ GUIA DE USO                                                ║
+║ ────────────────────────────────────────────────────────── ║
+║ ✅ ESTÁTICOS DIRETOS:                                      ║
+║    Use direto: (UINT64)pModule + Offset                   ║
+║    Exemplo: World = *(INT64*)((UINT64)pModule + 0x12AB43) ║
+║                                                            ║
+║ 🔗 DINÂMICOS MULTINÍVEL:                                   ║
+║    1. Carregue o ponteiro: ptrPtr = *(INT64*)offset       ║
+║    2. Dereference: Ptr = *(INT64*)ptrPtr                  ║
+║    3. Acesse membro: Membro = *(INT64*)(Ptr + 0x38)       ║
+║    Exemplo para Network::Scoreboard:                      ║
+║    pNetwork = *(INT64*)((INT64*)pModule + offset)         ║
+║    Scoreboard = *(INT64*)(pNetwork + 0x50)                ║
+║                                                            ║
+║ ⚠️ OFFSETS ZERO:                                           ║
+║    - Padrão encontrado mas cálculo falhou                 ║
+║    - Tente atualizar a máscara (mask)                     ║
+║    - Use Ghidra para verificar a instrução                ║
+╠════════════════════════════════════════════════════════════╣
+║ RECOMENDAÇÕES                                              ║
+║ ────────────────────────────────────────────────────────── ║
+║ 1. Offsets ✅ Estáticos: Use direto no seu código         ║
+║                                                            ║
+║ 2. Offsets 🔗 Dinâmicos: Implementar cadeia de ponteiros  ║
+║    Será necessário desreferenciar múltiplas vezes         ║
+║                                                            ║
+║ 3. Offsets ❌ Não Encontrados ou ⚠️ Zero:                  ║
+║    - Jogo pode ter sido atualizado                        ║
+║    - Use Ghidra para localizar novo padrão                ║
+║    - Atualize em SetupPatterns()                          ║
+╚════════════════════════════════════════════════════════════╝
