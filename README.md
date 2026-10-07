@@ -1,61 +1,59 @@
-# 📚 ÍNDICE DE DOCUMENTAÇÃO - DayZ_Dumper_Offsets
+# 📚 DOCUMENTATION INDEX - DayZ_Dumper_Offsets
 
-> **Onde estão sendo salvos os offsets?**
-> 
-> ✅ Em `Offsets.h` - Variáveis globais inline em namespaces
-> 
-> ✅ Mecanismo: Ponteiros de referência (`m_Reference`)
-> 
-> ✅ Salvos em: `Release()` via `UpdateReference()`
-> 
-> ✅ Acessível em: Qualquer arquivo que `#include "Offsets.h"`
-
----
-
-## ⚙️ Compilação e Validação
-
-✅ **Status de Build:** SUCESSO
-```
-- Sem erros de compilação
-- Sem avisos críticos  
-
-```
-
-## 🚀 Próximos Passos
-
-1. **Ler documentação adequada** (vide guia acima)
-2. **Testar com DayZ_x64.exe**
-3. **Verificar se offsets foram salvos**
-4. **Usar offsets em seu código**
-5. **Estender com novos padrões conforme necessário**
+> **Where are the offsets being saved?**
+>
+> ✅ In `Offsets.h` - Inline global variables inside namespaces
+>
+> ✅ Mechanism: Reference pointers (`m_Reference`)
+>
+> ✅ Saved in: `Release()` via `UpdateReference()`
+>
+> ✅ Accessible from: Any file that `#include "Offsets.h"`
 
 ---
 
-## 📞 Resumo Rápido (30 segundos)
+## ⚙️ Build & Validation
 
+✅ **Build Status:** SUCCESS
+
+```text
+- No compilation errors
+- No critical warnings
 ```
-Q: Aonde estão salvando os offsets?
-A: Em Offsets.h, em variáveis globais inline
 
-Q: Como são salvos?
-A: Via ponteiros em AutoOffset::UpdateReference()
+## Steps
 
-Q: Quando são salvos?
-A: Em Release() depois de Scan()
+1. **Read the proper documentation** (see guide above)
+2. **Test with DayZ_x64.exe**
+3. **Verify that the offsets were saved**
+4. **Extend with new patterns as needed**
 
-Q: Como usar?
-A: #include "Offsets.h" e acesse Offsets::Namespace::Nome
-
-Q: Estão funcionando?
-A: Sim! Build passou. Agora é com você para testar.
-```
 ---
 
-## 💡 Dica Final
+##  Quick Summary
 
-Se tiver dúvida, procure nesta ordem:
-0. **Alguns ponteiros podem estar desatualizados use o Ghidra para atualizar**
-1. **Quer exemplos** → "COMO_USAR_OFFSETS_SALVOS.md"
-2. **Quer ver código** → "ONDE_SALVAM_OFFSETS.md" + código-fonte
+```text
+Q: Where are the offsets saved?
+A: In Offsets.h, as inline global variables
 
-Boa sorte! 🚀
+Q: How are they saved?
+A: Via pointers in AutoOffset::UpdateReference()
+
+Q: When are they saved?
+A: In Release() after Scan()
+
+Q: How do I use them?
+A: #include "Offsets.h" and access Offsets::Namespace::Name
+```
+
+---
+
+## 💡 Final Tip
+
+If you have any questions, check the following in this order:
+
+0. **Some pointers may be outdated — use Ghidra to update them**
+1. **Want examples** → `COMO_USAR_OFFSETS_SALVOS.md`
+2. **Want to see the code** → `ONDE_SALVAM_OFFSETS.md` + source code
+
+🚀
